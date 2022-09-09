@@ -1,14 +1,17 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    char alphabet = 'a';
-    while (alphabet <= 'z')
+	char c;
+    while (c <= 'z')
     {
-        putchar(alphabet);
-        alphabet++;
+    putchar(c);
+    c++;
     }
-
-    putchar('\n');
-    return (0);
+putchar('\n');
+return (0);
 }
