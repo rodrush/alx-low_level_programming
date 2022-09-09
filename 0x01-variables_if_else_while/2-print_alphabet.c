@@ -6,12 +6,18 @@
  */
 int main(void)
 {
-	char c;
-    while (c <= 'z')
+    char alphabet = 'a';
+
+    while (alphabet <= 'z')
     {
-    putchar(c);
-    c++;
+        // print the value of the variable 
+        putchar(alphabet);
+
+        // increment the variable (ie: a becomes b)
+        alphabet++;
     }
-putchar('\n');
-return (0);
+
+    putchar('\n');
+    return (0);
 }
+
